@@ -118,16 +118,8 @@ elif menu_option == "Investigaciones destacadas":
              seleccionados de América Latina en el período 2015 - 2020, con el fin de brindar una comprensión completa
              sobre el fenómeno.
              """)
-#  espacio 
-    #st.write(" ")
-    
-     # Subbotón para mostrar el dashboard 
-   # if st.button("**Ver Dashboard**"):
-        # Código para mostrar dashboard
-       #st.subheader("Proyecto: Flujos Migratorios")
        
-    # Cargar y mostrar el contenido del dashboard de Power BI
-       #st.markdown('<iframe title="MVP_DASHBOARD" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=41c2cf4e-ec60-4764-96bb-74f248fff941&autoAuth=true&ctid=77f8c303-ef48-412f-bbb8-089de7b82c8a" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
+    
 #  espacio 
     st.write(" ")
         
@@ -228,11 +220,8 @@ if menu_option == "API":
 
 elif menu_option == "Contactanos":
     st.markdown("<h1 style='color: blue;'>Contactanos</h1>", unsafe_allow_html=True)
-    gif_path = "Migrantes_unidos.png"
-    # Mostrar el GIF
-    st.image(gif_path, caption=" ", width=150)
     # Código para mostrar información de contacto o formulario, según sea el caso
-    st.subheader("Hola!. Envianos tus consultas sobre la investigación y contenido.")
+    st.subheader("Hola!. Envianos tus consultas ")
     # Campos de entrada para el formulario
     nombre = st.text_input("**Nombre:**")
     email = st.text_input("**Correo Electrónico:**")
