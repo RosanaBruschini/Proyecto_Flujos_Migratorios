@@ -43,21 +43,7 @@ if menu_option == "Home":
     gif_path = "DATAIMAGE.gif"
     # Mostrar el GIF
     st.image(gif_path, caption=" ")
-    # Código para mostrar información de contacto o formulario, según sea el caso
-    st.subheader("Hola!. Envianos tus consultas sobre asuntos técnicos o relacionados con el desarrollo.")
-    # Campos de entrada para el formulario
-    nombre = st.text_input("**Nombre:**")
-    email = st.text_input("**Correo Electrónico:**")
-    consulta = st.text_area("**Consulta:**")
-
-# Botón para enviar la consulta
-    if st.button("**Enviar Consulta**"):
-    # se almacena los datos en una base de datos.
-     st.success(f"Consulta enviada:\nNombre: {nombre}\nCorreo Electrónico: {email}\nConsulta: {consulta}")
-     st.subheader("**¡Gracias por contactarnos!**")
-     st.write("""   """)
-
-
+    
 elif menu_option == "Acerca de nosotros":
     st.markdown("<h1 style='color: blue;'>Acerca de nosotros</h1>", unsafe_allow_html=True)
     st.write("""En LATAM TIC, creemos en la transformación a través de los datos, y nuestro compromiso es 
