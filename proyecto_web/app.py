@@ -221,7 +221,7 @@ if menu_option == "API":
 elif menu_option == "Contactanos":
     st.markdown("<h1 style='color: blue;'>Contactanos</h1>", unsafe_allow_html=True)
     # Código para mostrar información de contacto o formulario, según sea el caso
-    st.subheader("Hola!. Envianos tus consultas ")
+    st.subheader("Hola!. Dejanos tus consultas y comentarios 🚀")
     # Campos de entrada para el formulario
     nombre = st.text_input("**Nombre:**")
     email = st.text_input("**Correo Electrónico:**")
