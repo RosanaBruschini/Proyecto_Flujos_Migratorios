@@ -143,8 +143,11 @@ elif menu_option == "Dashboard":
                 tendencias, analiza patrones y mantenete actualizado con una herramienta esencial para 
                 comprender y tomar decisiones informadas sobre el fenómeno migratorio en la región.""")
     # Cargar y mostrar el contenido del dashboard de Power BI
-    st.markdown('<iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiY2IzNjg4NjMtNzVmYS00MDc1LTlkMjktY2Q0MmJhYTEyOTY4IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>')
-
+    #st.markdown('<iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiY2IzNjg4NjMtNzVmYS00MDc1LTlkMjktY2Q0MmJhYTEyOTY4IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>')
+    st.markdown(
+    '<iframe title="Dashboard_Final_Flujos_Migratorios (1)" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiY2IzNjg4NjMtNzVmYS00MDc1LTlkMjktY2Q0MmJhYTEyOTY4IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>',
+    unsafe_allow_html=True
+)
      
 # Crear el modelo de árbol de decisión fuera de la función
 modelo_arbol = DecisionTreeClassifier(max_depth=4, min_samples_split=2, min_samples_leaf=3, max_features=None)
