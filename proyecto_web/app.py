@@ -143,9 +143,9 @@ elif menu_option == "Dashboard":
                 tendencias, analiza patrones y mantenete actualizado con una herramienta esencial para 
                 comprender y tomar decisiones informadas sobre el fenómeno migratorio en la región.""")
     # Cargar y mostrar el contenido del dashboard de Power BI
-    st.markdown('<iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzJhYzM5ODctY2M4YS00ODBlLThiNWEtNTZkNDM5OTA3MTk0IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
-   
-   
+    st.markdown('<iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiY2IzNjg4NjMtNzVmYS00MDc1LTlkMjktY2Q0MmJhYTEyOTY4IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>')
+
+     
 # Crear el modelo de árbol de decisión fuera de la función
 modelo_arbol = DecisionTreeClassifier(max_depth=4, min_samples_split=2, min_samples_leaf=3, max_features=None)
 
@@ -221,7 +221,7 @@ if menu_option == "API":
 elif menu_option == "Contactanos":
     st.markdown("<h1 style='color: blue;'>Contactanos</h1>", unsafe_allow_html=True)
     # Código para mostrar información de contacto o formulario, según sea el caso
-    st.subheader("Hola!. Dejanos tus consultas y comentarios 🚀")
+    st.subheader("Hola!. Dejnos tus consultas y comentarios 🚀")
     # Campos de entrada para el formulario
     nombre = st.text_input("**Nombre:**")
     email = st.text_input("**Correo Electrónico:**")
