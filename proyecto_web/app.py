@@ -145,8 +145,9 @@ elif menu_option == "Dashboard":
     # Cargar y mostrar el contenido del dashboard de Power BI
     #st.markdown('<iframe title="Report Section" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiY2IzNjg4NjMtNzVmYS00MDc1LTlkMjktY2Q0MmJhYTEyOTY4IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
     
-    st.markdown('<iframe title="Report Section" width="800" height="500" src="https://app.powerbi.com/reportEmbed?reportId=41c2cf4e-ec60-4764-96bb-74f248fff941&autoAuth=true&ctid=77f8c303-ef48-412f-bbb8-089de7b82c8a" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True) 
-
+    # Cargar y mostrar el contenido del dashboard de Power BI
+    st.markdown('<iframe title="Report Section" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYzJhYzM5ODctY2M4YS00ODBlLThiNWEtNTZkNDM5OTA3MTk0IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
+   
 # Crear el modelo de árbol de decisión fuera de la función
 modelo_arbol = DecisionTreeClassifier(max_depth=4, min_samples_split=2, min_samples_leaf=3, max_features=None)
 
