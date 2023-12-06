@@ -35,10 +35,18 @@ image_col.image(image_path, caption=" ", width=90)
 
 # Contenido principal
 if menu_option == "Home":
-    st.write(""" Somos una consultora especializada en Data Science, con una fuerte vocación por el análisis
-             socioeconómico y geopolítico a nivel mundial. Durante diez años, hemos estado liderando el 
-             mercado con soluciones innovadoras que trascienden las fronteras de la información y generan un
-             impacto real en la toma de decisiones.  """)
+    st.markdown("<h1 style='color: blue;'>Portal de análisis migratorios de América Latina</h1>", unsafe_allow_html=True)
+    st.write(""" Este portal se presenta como un producto que facilita de manera interactiva los datos recopilados, 
+             sumado a la integración de un modelo predictivo desarrollado para proporcionar insights futuros. El 
+             análisis revela desafíos significativos, como el aumento en la tasa de emigración y la disminución 
+             del Producto Interno Bruto (PIB) per cápita. Estos resultados informan sobre la situación actual, como
+             también sobre posibles tendencias futuras. 
+             El enfoque de integración estratégica, contempla un Dashboard interactivo que a través del análisis de 
+             indicadores clave de rendimiento (KPIs), se pretende generar una visión detallada de los factores 
+             socioeconómicos que impulsan los patrones migratorios.
+             El mantenimiento post-implementación garantiza la actualización continua de datos, permitiendo una 
+             adaptación ágil a cambios en la dinámica migratoria.""")
+    
     # Ruta del archivo GIF (usando una ruta relativa)
     gif_path = "DATAIMAGE.gif"
     # Mostrar el GIF
@@ -46,6 +54,11 @@ if menu_option == "Home":
     
 elif menu_option == "Acerca de nosotros":
     st.markdown("<h1 style='color: blue;'>Acerca de nosotros</h1>", unsafe_allow_html=True)
+    st.write(""" Somos una consultora especializada en Data Science, con una fuerte vocación por el análisis
+             socioeconómico y geopolítico a nivel mundial. Durante diez años, hemos estado liderando el 
+             mercado con soluciones innovadoras que trascienden las fronteras de la información y generan un
+             impacto real en la toma de decisiones.  """)
+    
     st.write("""En LATAM TIC, creemos en la transformación a través de los datos, y nuestro compromiso es 
              brindar la más alta calidad en investigación y análisis para impulsar el cambio y el desarrollo. 
              Nos enorgullece decir que hemos establecido una amplia trayectoria de éxito en el apasionante 
