@@ -35,7 +35,7 @@ image_col.image(image_path, caption=" ", width=90)
 
 # Contenido principal
 if menu_option == "Home":
-    st.markdown("<h1 style='color: blue;'>Portal de Análisis Migratorios de América Latina</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: blue;'>Portal de Análisis Migratorio de América Latina</h1>", unsafe_allow_html=True)
     st.write(""" Este portal se presenta como un producto que facilita de manera interactiva los datos recopilados, 
              sumado a la integración de un modelo predictivo desarrollado para proporcionar insights futuros. El 
              análisis revela desafíos significativos, como el aumento en la tasa de emigración y la disminución 
