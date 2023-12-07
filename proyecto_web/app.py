@@ -156,11 +156,9 @@ elif menu_option == "Dashboard":
     st.write("""Explora los flujos migratorios en América Latina a través del Dashboard interactivo. Visualiza
                 tendencias, analiza patrones y mantenete actualizado con una herramienta esencial para 
                 comprender y tomar decisiones informadas sobre el fenómeno migratorio en la región.""")
-    # Cargar y mostrar el contenido del dashboard de Power BI
-    #st.markdown('<iframe title="Report Section" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiY2IzNjg4NjMtNzVmYS00MDc1LTlkMjktY2Q0MmJhYTEyOTY4IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
     
     # Cargar y mostrar el contenido del dashboard de Power BI
-    st.markdown('<iframe title="Report Section" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYzJhYzM5ODctY2M4YS00ODBlLThiNWEtNTZkNDM5OTA3MTk0IiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
+    st.markdown('<iframe title="Report Section" width="800" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiNzU2Yjg5MTktMGE0ZS00NDliLWI1NjktZjY2MjNiZTZkZGYwIiwidCI6IjFmODEwNTkyLTJiMTAtNGQyZi05ZDFkLWNhMzFiMjY5MTVkZSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
     
 
 # Crear el modelo de árbol de decisión fuera de la función
